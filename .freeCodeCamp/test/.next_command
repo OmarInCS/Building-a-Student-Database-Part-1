@@ -112,3 +112,16 @@ history -a
 pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto --all
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/OmarInCS/Building-a-Student-Database-Part-1.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
